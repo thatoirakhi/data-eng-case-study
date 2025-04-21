@@ -1,0 +1,25 @@
+### Problem Statement
+
+The goal of this project is to analyze taxi trip data to derive insights and implement solutions for optimizing taxi operations. The project involves the following key objectives:
+
+1. **Data Transformation and Aggregation**:
+   - Enrich raw taxi trip data by joining it with zone lookup data.
+   - Perform transformations to extract time-based features (e.g., pickup hour) and calculate trip-specific metrics (e.g., trip duration).
+
+2. **High-Demand Zone Identification**:
+   - Aggregate data to identify zones and time intervals with high demand.
+   - Rank zones by demand to prioritize areas for operational focus.
+
+3. **Shared Ride Feasibility**:
+   - Determine zones and time intervals where shared rides can be promoted by analyzing passenger counts and trip overlaps.
+   - Mark zones as feasible for shared rides based on predefined thresholds.
+
+4. **Dynamic Pricing Model**:
+   - Implement a dynamic pricing model that adjusts fare prices based on demand metrics (e.g., total trips).
+
+5. **Final Price Calculation**:
+   - Calculate the final price for trips by combining dynamic pricing adjustments with shared ride feasibility discounts.
+
+6. **Testing and Validation**:
+   - Write unit tests to validate the correctness of data transformations, aggregations, shared ride feasibility logic, and dynamic pricing calculations.
+
